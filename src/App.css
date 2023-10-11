@@ -1,0 +1,141 @@
+#root {
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.light-brown-gradient {
+  background: linear-gradient(to right, #da790a, #D59E58, #DAA972, #E4B887, #f57c0a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.light-brown-gradient1 {
+  background: linear-gradient(to right, #6a83c8, #5047b1, #7466c4, #2a3b62);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.text-gradient{
+  background: linear-gradient(45deg, #ffcc70, #ffcc70);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color:transparent;
+}
+.p-gradient{
+  background: linear-gradient(45deg, #937c51, #ffcc70);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color:transparent;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* styles.css */
+
+
+/* LiteCoin-1 */
+.logo{
+position: absolute;
+width: 104.24px;
+height: 104.24px;
+
+background: url(.png);
+transform: rotate(-158.49deg);
+}
+.btn-general{
+  background: linear-gradient(135deg, #003366, #0074E4, #00A3FF, #0074E4, #003366);
+
+}
+.img-1{
+  border-bottom: solid 2px   #0b0b0b;
+  border-right: solid 2px   #0b0b0b;
+}
+.cta-section{
+  background: linear-gradient(135deg, #2c2b2b, #171616, #302c2c);
+}
+.textcolor{
+  background: linear-gradient(135deg, #2c2b2b, #171616, #302c2c);
+}
+/* CryptoModal.css */
+.custom-modal {
+  width: 75%; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  background-color: #222; /* Customize the background color */
+  color: #fff; /* Customize the text color */
+}
+
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Customize the background color and opacity */
+}
+
+.custom-modal-title {
+  font-size: 1.5rem; /* Customize the title font size */
+  font-weight: bold; /* Customize the title font weight */
+}
+
+.custom-modal-text {
+  font-size: 1rem; /* Customize the text font size */
+}
+
+.news-ticker {
+  overflow: hidden;
+  width: max-content;
+  white-space: nowrap;
+}
+
+.ul {
+  display: inline-block;
+  animation: scroll 7s linear 4;
+  white-space: nowrap; /* Prevent wrapping of news items */
+  overflow: hidden; /* Hide overflowing items */
+  width: 100%; /* Ensure the ticker spans the full width */
+  animation: slide-in-right  ease-in-out 4s 5;
+}
+
+.li {
+  display: inline;
+  padding: 0 10px; /* Add spacing between news items */
+  
+}
+@keyframes  slide-in-right{
+from{
+transform: translateX(200%)
+}
+to{
+transform: translateX(0%)
+}
+} 
