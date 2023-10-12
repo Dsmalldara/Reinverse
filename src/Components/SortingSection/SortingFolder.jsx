@@ -1,7 +1,7 @@
 import React from 'react'
 import Search from './Search'
 import Sorting from '../SortingSection/Sorting'
-import Currency from './currency'
+import Currency from './Currency'
 import Refresh from './Refresh'
 function SortingFolder() {
   return (
