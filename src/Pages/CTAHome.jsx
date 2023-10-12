@@ -3,7 +3,7 @@ import {PiArrowsLeftRightFill} from 'react-icons/pi'
 import {FcHeatMap} from 'react-icons/fc'
 import {SlWallet} from 'react-icons/sl'
 import {AiOutlineArrowRight} from 'react-icons/ai'
-import moonlike from '../Images/moonlike.svg'
+import { moonlike } from `${process.env.PUBLIC_URL}/Images/moonlike.svg`;
 import circle from '../Images/circles.svg'
 
 function CTAHome() {
