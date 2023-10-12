@@ -79,7 +79,7 @@ function CTAHome() {
         <img src={moonlike} alt="" className='flex h-[20rem] w-[40%] md:w-[40%] object-cover' />
     </div> */}
   <div className="mt-[-17rem] justify-center items-center md:ml-[5rem]">
-  <h1 className="circle-gradient md:text-[3.5rem]/[4rem]  w-[80%] md:w-[40%] md:mr-[7.5rem] mx-auto  font-crimson text-3xl tracking-wider">
+  <h1 className="circle-gradient md:text-[3.5rem]/[4rem]  w-[80%] md:w-[40%] md:mr-[7.5rem] mx-auto md:mx-0 font-crimson text-3xl tracking-wider">
     24/7 Support to help you get started with a free consultation and customised plan
   </h1>
 </div>
