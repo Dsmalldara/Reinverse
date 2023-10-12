@@ -3,11 +3,10 @@ import {PiArrowsLeftRightFill} from 'react-icons/pi'
 import {FcHeatMap} from 'react-icons/fc'
 import {SlWallet} from 'react-icons/sl'
 import {AiOutlineArrowRight} from 'react-icons/ai'
-// import {circle} from '../Images/circles.svg'
-import {moonlike} from '../Images/moonlike.svg'
+import moonlike from '../Images/moonlike.svg'
 function CTAHome() {
   return (
-    <div className="mt-[3rem]">
+   <div className="mt-[3rem]">
         <div  className="flex md:flex-row flex-col items-center justify-center space-y-[3rem] md:space-y-0 gap-[7%]">
         <div  className="cta-section md:w-[28%] w-[75%]  h-[16.5rem] rounded-2xl backdrop-blur-sm flex flex-col justify-center items-center">
 <div className='items-center my-1 justify-center flex text-4xl border border-charcoalGray p-1 rounded-full w-[20%] '>
@@ -34,7 +33,7 @@ function CTAHome() {
   </div>
   <h3 className='items-center justify-center flex '>CoinFLip ATMS</h3>
   <p className='items-center justify-center flex text-[1rem]  px-3 mt-2 '>
-    We've Thousands of ATM across Africa Where you can easily convert cash to crypto
+    We ve Thousands of ATM across Africa Where you can easily convert cash to crypto
   </p>
   <p  className='items-center justify-center flex mt-2'>  <Link>Find an ATM
         <span className='ml-2 inline-block'>
@@ -73,7 +72,7 @@ function CTAHome() {
     </div>
    <div className=''>
    <div className='flex items-end justify-end mt-[-1rem] md:mt-[-9rem]'>
-{/*         <img src={circle} alt="" className='flex h-[30rem] w-[90%] md:w-[45%] object-cover' /> */}
+        <img src={circle} alt="" className='flex h-[30rem] w-[90%] md:w-[45%] object-cover' />
     </div>
     <div className='mt-[-16rem]  ml-7 md:ml-[7rem] md:flex hidden'>
         <img src={moonlike} alt="" className='flex h-[20rem] w-[40%] md:w-[40%] object-cover' />
@@ -90,7 +89,7 @@ function CTAHome() {
    </div>
    <div className='items-center justify-center flex flex-col'>
     <p className='items-center justify-center flex w-[80%] text-GhostWhite mt-[1.5rem] md:mt-[2rem]'>
-        Buy and sell 150+ cryptocurrencies with the lowest fees in the industry. We've got you covered with our 24/7 support and advanced trading platform.
+        Buy and sell 150+ cryptocurrencies with the lowest fees in the industry. We ve got you covered with our 24/7 support and advanced trading platform.
     </p>
     <div  className=' flex items-center justify-center mt-[1.5rem] md:mt-[2rem]'>
         <p className=' text-dodgerBlue text-2xl'>
