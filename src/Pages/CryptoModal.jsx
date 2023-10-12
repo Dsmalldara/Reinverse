@@ -34,7 +34,7 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    width: '80%',
+    width: '84%',
     height: '85%',
     // marginRight: '-50%',
     backgroundColor: 'rgba(50, 49, 49, 0.3)', // Use rgba for background color with opacity
