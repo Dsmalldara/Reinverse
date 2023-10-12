@@ -3,7 +3,7 @@ import {PiArrowsLeftRightFill} from 'react-icons/pi'
 import {FcHeatMap} from 'react-icons/fc'
 import {SlWallet} from 'react-icons/sl'
 import {AiOutlineArrowRight} from 'react-icons/ai'
-import circles from '../images/circles.svg'
+import circle from '../images/circles.svg'
 import moonLike from '../images/moonLike.svg'
 function CTAHome() {
   return (
@@ -73,7 +73,7 @@ function CTAHome() {
     </div>
    <div className=''>
    <div className='flex items-end justify-end mt-[-1rem] md:mt-[-9rem]'>
-        <img src={circles} alt="" className='flex h-[30rem] w-[90%] md:w-[45%] object-cover' />
+        <img src={circle} alt="" className='flex h-[30rem] w-[90%] md:w-[45%] object-cover' />
     </div>
     <div className='mt-[-16rem]  ml-7 md:ml-[7rem] md:flex hidden'>
         <img src={moonLike} alt="" className='flex h-[20rem] w-[40%] md:w-[40%] object-cover' />
