@@ -48,7 +48,12 @@
   background-clip: text;
   color:transparent;
 }
-
+.circle-gradient{
+  background: linear-gradient(45deg, #33507c, #83aad3, #33507c, #33507c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color:transparent;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
