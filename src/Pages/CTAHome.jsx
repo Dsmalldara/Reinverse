@@ -4,7 +4,7 @@ import {FcHeatMap} from 'react-icons/fc'
 import {SlWallet} from 'react-icons/sl'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import circle from '../Images/circles.svg'
-import moonLike from '../Images/moonlike.svg'
+import {moonlike} from '../Images/moonlike.svg'
 function CTAHome() {
   return (
     <div className="mt-[3rem]">
@@ -76,7 +76,7 @@ function CTAHome() {
         <img src={circle} alt="" className='flex h-[30rem] w-[90%] md:w-[45%] object-cover' />
     </div>
     <div className='mt-[-16rem]  ml-7 md:ml-[7rem] md:flex hidden'>
-        <img src={moonLike} alt="" className='flex h-[20rem] w-[40%] md:w-[40%] object-cover' />
+        <img src={moonlike} alt="" className='flex h-[20rem] w-[40%] md:w-[40%] object-cover' />
     </div>
    <div className="flex flex-col  mt-[-17rem] justify-center items-center md:justify-end md:items-end">
   <h1 className=" w-[80%] md:w-[30%] md:mr-[7.5rem] font-crimson text-2xl md:text-[2.3rem] tracking-wider">
