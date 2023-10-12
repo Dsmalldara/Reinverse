@@ -4,7 +4,7 @@ import {FcHeatMap} from 'react-icons/fc'
 import {SlWallet} from 'react-icons/sl'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import circle from '../Images/circles.svg'
-import moonLike from '../images/moonLike.svg'
+import moonLike from '../Images/moonlike.svg'
 function CTAHome() {
   return (
     <div className="mt-[3rem]">
